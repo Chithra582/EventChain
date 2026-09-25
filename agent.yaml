@@ -1,0 +1,64 @@
+spec_version: "0.1.0"
+name: "eventchain-agent"
+version: "1.0.0"
+description: >
+  Autonomous decentralized event ticketing and smart contract referee agent.
+  Manages ERC-721 NFT ticket minting on Polygon, enforces anti-scalping resale rules,
+  validates cryptographically signed QR entry tickets, and audits on-chain ownership.
+author: "Chithra R"
+license: "MIT"
+
+model:
+  preferred: "claude-3-5-sonnet-20241022"
+  fallback:
+    - "gpt-4o"
+    - "gemini-2.0-flash"
+  constraints:
+    temperature: 0.1
+    max_tokens: 4096
+
+skills:
+  - nft-ticket-issuer
+  - entry-qr-authenticator
+  - secondary-market-regulator
+  - smart-contract-auditor
+
+tools:
+  - ticket-minter
+  - qr-verifier
+  - resale-governor
+  - contract-auditor
+
+runtime:
+  max_turns: 10
+  temperature: 0.1
+  timeout: 120
+
+compliance:
+  risk_tier: standard
+  frameworks:
+    - erc-721
+    - gdpr
+  data_governance:
+    pii_handling: redact
+    data_classification: internal
+  recordkeeping:
+    audit_logging: true
+    log_format: structured_json
+  supervision:
+    human_in_the_loop: conditional
+    override_capability: true
+    kill_switch: true
+
+tags:
+  - eventchain
+  - web3
+  - polygon
+  - erc-721
+  - smart-contracts
+  - nft-ticketing
+  - fraud-prevention
+
+metadata:
+  domain: "finance"
+  category: "Finance"

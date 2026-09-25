@@ -1,0 +1,18 @@
+name: resale-governor
+description: Verify resale compliance and calculate royalty splits for secondary ticket sales.
+input_schema:
+  type: object
+  properties:
+    token_id:
+      type: integer
+      description: Token ID of the ticket being resold.
+    resale_price:
+      type: number
+      description: Proposed secondary market sale price in MATIC/POL.
+    original_face_value:
+      type: number
+      description: Original primary sale price of the ticket.
+  required:
+    - token_id
+    - resale_price
+    - original_face_value

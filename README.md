@@ -1,7 +1,12 @@
 # EventChain  
 Decentralized Event Ticketing App
 
-EventChain is a blockchain-based event ticketing platform that leverages NFTs, smart contracts, and a mobile-first architecture to eliminate ticket fraud, ensure transparent ownership, and enable secure event entry verification.
+[![HiDevs GitAgent Passport](https://img.shields.io/badge/HiDevs-GitAgent%20Passport-blueviolet?style=flat-square)](https://app.hidevs.xyz/passport/submit)
+[![OpenGAP](https://img.shields.io/badge/OpenGAP-v0.1.0-blue?style=flat-square)](https://github.com/open-gitagent/opengap)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Agent](https://img.shields.io/badge/agent-eventchain--agent-orange?style=flat-square)](agent.yaml)
+
+EventChain is an autonomous, decentralized blockchain-based event ticketing platform and intelligence agent that leverages ERC-721 NFTs on Polygon, smart contracts, and a Flutter mobile architecture to eliminate ticket fraud, ensure transparent ownership, and enable secure event entry verification.
 
 ---
 
@@ -257,3 +262,12 @@ For project-related queries or issues, please reach out via **Discord**.
 > - Avoid unnecessary direct messages (DMs) and random pings  
 
 EventChain — Redefining Event Ticketing with Blockchain.
+
+---
+
+## 🛂 HiDevs GitAgent Passport Submission
+
+- **Portal**: [HiDevs GitAgent Passport](https://app.hidevs.xyz/passport/submit)
+- **Repository**: `Chithra582/EventChain`
+- **Category**: **Finance** (or **Retail & e-commerce**)
+

@@ -1,0 +1,18 @@
+name: ticket-minter
+description: Mint ERC-721 NFT ticket to a recipient address with IPFS metadata URI.
+input_schema:
+  type: object
+  properties:
+    event_id:
+      type: string
+      description: Unique identifier of the event.
+    recipient_address:
+      type: string
+      description: Ethereum/Polygon public wallet address of the ticket holder.
+    metadata_uri:
+      type: string
+      description: IPFS URI (ipfs://...) containing ticket attributes and artwork.
+  required:
+    - event_id
+    - recipient_address
+    - metadata_uri

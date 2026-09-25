@@ -1,0 +1,14 @@
+name: contract-auditor
+description: Inspect deployed smart contract address for ERC-721 compliance and security flags.
+input_schema:
+  type: object
+  properties:
+    contract_address:
+      type: string
+      description: Polygon contract address to audit.
+    network:
+      type: string
+      enum: [polygon_mainnet, polygon_amoy, polygon_mumbai]
+      description: Target blockchain network.
+  required:
+    - contract_address
